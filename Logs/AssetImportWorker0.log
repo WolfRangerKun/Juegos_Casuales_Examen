@@ -96,3 +96,137 @@ Received Import Request.
 Start importing Assets/Prefabs/Agua.prefab using Guid(69f4d72419c80934eb2a52f07f3eb9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502c86d88ba0d3be3a0b9b244816300e') in 0.126541 seconds
   Import took 0.131201 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 108.709277 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427a6491ff8c13d3e3666f467736507c') in 0.011263 seconds
+  Import took 0.024941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003952 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427a6491ff8c13d3e3666f467736507c') in 0.008057 seconds
+  Import took 0.012854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.777326 seconds.
+  path: Assets/Scenes/Dispensador Awua.unity
+  artifactKey: Guid(982214b10ccfcae45a6a574743796b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Dispensador Awua.unity using Guid(982214b10ccfcae45a6a574743796b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218b33280ade427c91672c04b4c71192') in 0.006664 seconds
+  Import took 0.011725 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004846 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.309 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1957 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.2 MB.
+System memory in use after: 96.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2443.
+Total: 2.776300 ms (FindLiveObjects: 0.301400 ms CreateObjectMapping: 0.180400 ms MarkObjects: 2.262500 ms  DeleteObjects: 0.030500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003229 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.290 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1957 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.2 MB.
+System memory in use after: 96.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2447.
+Total: 2.642700 ms (FindLiveObjects: 0.252500 ms CreateObjectMapping: 0.098300 ms MarkObjects: 2.271300 ms  DeleteObjects: 0.019200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 169.793985 seconds.
+  path: Assets/Scripts/Molecula.cs
+  artifactKey: Guid(bccc438ccf8d27246bc92e2d3e4122a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Molecula.cs using Guid(bccc438ccf8d27246bc92e2d3e4122a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ac4da585e459a820a2360bacc9b1d8') in 0.017375 seconds
+  Import took 0.021758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.680464 seconds.
+  path: Assets/Scripts/AlmacenamientoAgua.cs
+  artifactKey: Guid(a2b93c638eac40f49b3786f2950412d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AlmacenamientoAgua.cs using Guid(a2b93c638eac40f49b3786f2950412d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9052f6c1348612b2b630fe93898732bc') in 0.009880 seconds
+  Import took 0.014732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.831079 seconds.
+  path: Assets/Scripts/Agua.cs
+  artifactKey: Guid(bede5ce606a8fef4998a64dcd92f7855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Agua.cs using Guid(bede5ce606a8fef4998a64dcd92f7855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba33d847c91ae4fb16a5acaca2cb127') in 0.003489 seconds
+  Import took 0.008879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076243 seconds.
+  path: Assets/Scripts/Inventario.cs
+  artifactKey: Guid(ddfeef5c4a154214e85de79d150de676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Inventario.cs using Guid(ddfeef5c4a154214e85de79d150de676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae951ffbc013696bfc61131330fc691') in 0.012143 seconds
+  Import took 0.016325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.225273 seconds.
+  path: Assets/Scripts/CreacionMolecula.cs
+  artifactKey: Guid(9fecf6f4d65f290449238f44941ec44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CreacionMolecula.cs using Guid(9fecf6f4d65f290449238f44941ec44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b635e7b611639e58ed4f93a3001177') in 0.009861 seconds
+  Import took 0.014820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.333612 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(91060be1f8f5b4c4a93a21739c573b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(91060be1f8f5b4c4a93a21739c573b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c58038ac72f61655a602752246cb75') in 0.010173 seconds
+  Import took 0.014221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029510 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(91060be1f8f5b4c4a93a21739c573b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(91060be1f8f5b4c4a93a21739c573b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c58038ac72f61655a602752246cb75') in 0.008445 seconds
+  Import took 0.012651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.427296 seconds.
+  path: Assets/Scripts/DispensadorAgua.cs
+  artifactKey: Guid(eb43af186e6815b48831e8d2dd6992d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DispensadorAgua.cs using Guid(eb43af186e6815b48831e8d2dd6992d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699736d23cb92d34a6ac65a086b93067') in 0.012161 seconds
+  Import took 0.016501 seconds .
+
