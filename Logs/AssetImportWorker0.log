@@ -230,3 +230,73 @@ Received Import Request.
 Start importing Assets/Scripts/DispensadorAgua.cs using Guid(eb43af186e6815b48831e8d2dd6992d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699736d23cb92d34a6ac65a086b93067') in 0.012161 seconds
   Import took 0.016501 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 345.012578 seconds.
+  path: Assets/Scenes/Dispensador Awua.unity
+  artifactKey: Guid(982214b10ccfcae45a6a574743796b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Dispensador Awua.unity using Guid(982214b10ccfcae45a6a574743796b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742ed06b00c3fe47cdb71d0e41f32948') in 0.015191 seconds
+  Import took 0.021643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.810842 seconds.
+  path: Assets/Resources/DOTweenSettings.asset
+  artifactKey: Guid(60e5b5ed8bb075f4cb7f4005cf43f743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DOTweenSettings.asset using Guid(60e5b5ed8bb075f4cb7f4005cf43f743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535e63bbd1507b590520d836343f6332') in 0.011965 seconds
+  Import took 0.017028 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003750 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.288 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1957 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2451.
+Total: 3.011200 ms (FindLiveObjects: 0.287900 ms CreateObjectMapping: 0.190400 ms MarkObjects: 2.512700 ms  DeleteObjects: 0.019100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014006 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.722 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1957 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2455.
+Total: 3.131600 ms (FindLiveObjects: 0.323000 ms CreateObjectMapping: 0.229400 ms MarkObjects: 2.539000 ms  DeleteObjects: 0.038900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.521734 seconds.
+  path: Assets/Scripts/CreacionMolecula.cs
+  artifactKey: Guid(9fecf6f4d65f290449238f44941ec44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CreacionMolecula.cs using Guid(9fecf6f4d65f290449238f44941ec44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef76dc2f1d6febfb8299bab11d7a379c') in 0.012469 seconds
+  Import took 0.016918 seconds .
+

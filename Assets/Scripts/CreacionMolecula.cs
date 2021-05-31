@@ -17,6 +17,7 @@ public class CreacionMolecula : MonoBehaviour
             }
         }
     }
-
-
+    private void Update()
+    {
+    }
 }
