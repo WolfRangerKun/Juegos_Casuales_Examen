@@ -14,10 +14,11 @@ public class PlayerMovement : MonoBehaviour
     Animator anim;
     Vector3 targetPosition;
     Direction direction;
-
-
     public LayerMask obstacles;
+    public LayerMask move;
     public float speed = 5;
+    public Transform rayCast, rayCast2, rayCast3, rayCast4;
+    public float distanceRay;
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -27,6 +28,14 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        Debug.DrawRay(rayCast2.position, rayCast.right * distanceRay);
+        Debug.DrawRay(rayCast.position, -rayCast.right * distanceRay);
+        Debug.DrawRay(rayCast3.position, rayCast.up * distanceRay);
+        Debug.DrawRay(rayCast4.position, -rayCast.up * distanceRay);
+        RaycastHit2D hit = Physics2D.Raycast(rayCast.position, -rayCast.right, distanceRay, move);
+        RaycastHit2D hit2 = Physics2D.Raycast(rayCast2.position, rayCast.right, distanceRay, move);
+        RaycastHit2D hit3 = Physics2D.Raycast(rayCast3.position, rayCast.up, distanceRay, move);
+        RaycastHit2D hit4 = Physics2D.Raycast(rayCast4.position, -rayCast.up, distanceRay, move);
         Vector2 axisDirection = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         if(axisDirection != Vector2.zero && targetPosition == transform.position)
         {
@@ -35,12 +44,22 @@ public class PlayerMovement : MonoBehaviour
                 if(axisDirection.x > 0)
                 {
                     direction = Direction.right;
+                    //transform.eulerAngles = new Vector2(0f, 180f);
+                    if (hit2.collider && direction == Direction.right)
+                    {
+                        hit2.transform.position = new Vector2(hit2.transform.position.x + 1, hit2.transform.position.y);
+                    }
                     if (!CheckCollision)
                         targetPosition += Vector3.right;
                 }
                 else
                 {
                     direction = Direction.left;
+                    //transform.eulerAngles = new Vector2(0f, 0f);
+                    if (hit.collider && direction == Direction.left)
+                    {
+                        hit.transform.position = new Vector2(hit.transform.position.x - 1, hit.transform.position.y);
+                    }
                     if (!CheckCollision)
                         targetPosition -= Vector3.right;
                 }
@@ -50,12 +69,22 @@ public class PlayerMovement : MonoBehaviour
                 if (axisDirection.y > 0)
                 {
                     direction = Direction.up;
+                    //transform.eulerAngles = new Vector3(0f, 0f, -90f);
+                    if (hit3.collider && direction == Direction.up)
+                    {
+                        hit3.transform.position = new Vector2(hit3.transform.position.x, hit3.transform.position.y + 1);
+                    }
                     if (!CheckCollision)
                         targetPosition += Vector3.up;
                 }
                 else
                 {
                     direction = Direction.down;
+                    //transform.eulerAngles = new Vector3(0f, 0f, 90f);
+                    if (hit4.collider && direction == Direction.down)
+                    {
+                        hit4.transform.position = new Vector2(hit4.transform.position.x, hit4.transform.position.y - 1);
+                    }
                     if (!CheckCollision)
                         targetPosition -= Vector3.up;
                 }
@@ -68,7 +97,7 @@ public class PlayerMovement : MonoBehaviour
     {
         get
         {
-            bool col = true;
+            //bool col = true;
             RaycastHit2D rh;
 
             Vector2 dir = Vector2.zero;
