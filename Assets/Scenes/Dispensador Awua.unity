@@ -216,7 +216,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 142436137}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0484ea6b3fb9417439fede74db000bc0, type: 3}
+  m_Script: {fileID: 11500000, guid: a2b93c638eac40f49b3786f2950412d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cantidadAgua: 0
@@ -422,7 +422,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 579335251}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd0ee075b19a07b49bed58e2cc952a81, type: 3}
+  m_Script: {fileID: 11500000, guid: bccc438ccf8d27246bc92e2d3e4122a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tipoMolecula: 1
@@ -545,10 +545,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 740831354}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d201c7a293b93ac41919f57852f58cf9, type: 3}
+  m_Script: {fileID: 11500000, guid: eb43af186e6815b48831e8d2dd6992d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agua: {fileID: 9067039418443898218, guid: c5c71e949a43bbe408278086e1bed78e, type: 3}
+  agua: {fileID: 9067039418443898218, guid: 69f4d72419c80934eb2a52f07f3eb9d4, type: 3}
   spawnAgua: {fileID: 799845618}
 --- !u!61 &740831358
 BoxCollider2D:
@@ -699,7 +699,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 898871978}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd0ee075b19a07b49bed58e2cc952a81, type: 3}
+  m_Script: {fileID: 11500000, guid: bccc438ccf8d27246bc92e2d3e4122a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tipoMolecula: 0
@@ -824,13 +824,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 1172829998}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c140176e3f410ad4d8b819e668279f2a, type: 3}
+  m_Script: {fileID: 11500000, guid: 91060be1f8f5b4c4a93a21739c573b65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   obstacles:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
+  move:
+    serializedVersion: 2
+    m_Bits: 0
   speed: 5
+  rayCast: {fileID: 0}
+  rayCast2: {fileID: 0}
+  rayCast3: {fileID: 0}
+  rayCast4: {fileID: 0}
+  distanceRay: 0
 --- !u!61 &1172830002
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -887,7 +895,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1172829998}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1839d25fe4a99d459eb089ef1a2cb0f, type: 3}
+  m_Script: {fileID: 11500000, guid: ddfeef5c4a154214e85de79d150de676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   inventario: []
@@ -1177,7 +1185,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1745669857}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c61c4e401a9bdb4f880c3499df5be9c, type: 3}
+  m_Script: {fileID: 11500000, guid: 9fecf6f4d65f290449238f44941ec44b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mesa: []
